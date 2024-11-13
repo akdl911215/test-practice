@@ -7,6 +7,4 @@ export class CreatePostInputDto extends PickType(Post, [
   'nickname',
 ] as const) {}
 
-// export class CreatePostInputDto extends PartialType(Post) {}
-
 export type CreatePostOutputDto = Post;

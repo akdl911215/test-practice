@@ -1,6 +1,6 @@
 import { TypeOrmModule } from '@nestjs/typeorm';
 
-export const typeormService = TypeOrmModule.forRoot({
+export const TypeormService = TypeOrmModule.forRoot({
   type: 'sqlite', // SQLite 데이터베이스를 사용
   database: 'database.sqlite', // 데이터베이스 파일 이름
   autoLoadEntities: true, // 엔티티 자동 로드 및 매핑
